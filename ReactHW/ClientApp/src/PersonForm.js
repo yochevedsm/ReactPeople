@@ -23,9 +23,11 @@ class PersonForm extends React.Component {
                         <input type="text" className="form-control" value={this.props.person.age} onChange={this.props.onAgeChange}  placeholder="Age" />
                     </div>
                     <div className="col-md-3">
-                        <button className="btn btn-primary" onClick={this.onAddClick}> Add</button>
+                        <button className="btn btn-primary" onClick={this.props.onAddClick}> Add</button>
+
+
                    
-                        <button className="btn btn-warning ml-3" onClick={this.onClearClick}> Clear All</button>
+                        <button className="btn btn-warning ml-3" onClick={this.props.onClearClick}> Clear All</button>
                     </div>
 
                 </div>

@@ -66,7 +66,7 @@ render() {
                 onFirstNameChange={this.onFirstNameChange}            
                 onLastNameChange={this.onLastNameChange}
                 onAgeChange={this.onAgeChange}
-                onClick={this.onAddClick}
+                onAddClick={this.onAddClick}
                 onClearClick={this.onClearClick}
                 person={this.state.person} />
     
